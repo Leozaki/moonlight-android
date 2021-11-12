@@ -91,8 +91,7 @@ public class KeyboardTranslator {
         }
         else {
             switch (keycode) {
-            // translated = ALT_LEFT 0xA4;
-            case KeyEvent.KEYCODE_GRAVE:
+            case KeyEvent.KEYCODE_ALT_LEFT:
                 translated = 0xA4;
                 break;
 
@@ -101,7 +100,7 @@ public class KeyboardTranslator {
                 break;
                     
             // translated = Winkey 0x5B;
-            case KeyEvent.KEYCODE_TAB:
+            case KeyEvent.KEYCODE_TV:
                 translated = 0x5b;
                 break;
                 
