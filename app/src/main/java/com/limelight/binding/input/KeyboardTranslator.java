@@ -92,7 +92,7 @@ public class KeyboardTranslator {
         else {
             switch (keycode) {
             // translated = ALT_LEFT 0xA4;
-            case KeyEvent.KEYCODE_BOTTON_1:
+            case KeyEvent.KEYCODE_GRAVE:
                 translated = 0xA4;
                 break;
 
@@ -101,7 +101,7 @@ public class KeyboardTranslator {
                 break;
                     
             // translated = Winkey 0x5B;
-            case KeyEvent.KEYCODE_BOTTON_2:
+            case KeyEvent.KEYCODE_TAB:
                 translated = 0x5b;
                 break;
                 
@@ -227,7 +227,7 @@ public class KeyboardTranslator {
                 translated = VK_PRINTSCREEN;
                 break;
                 
-            case KeyEvent.KEYCODE_TAB:
+            case KeyEvent.KEYCODE_DVR:
                 translated = VK_TAB;
                 break;
                 
@@ -247,7 +247,7 @@ public class KeyboardTranslator {
                 translated = VK_DOWN;
                 break;
                 
-            case KeyEvent.KEYCODE_GRAVE:
+            case KeyEvent.KEYCODE_TV:
                 translated = VK_BACK_QUOTE;
                 break;
                 
