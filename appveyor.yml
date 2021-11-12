@@ -15,6 +15,7 @@ build_script:
 
 after_build:
   - 'dir app\build\'
+  - 'dir app\build\outputs'
   - 'appveyor PushArtifact app\build\reports\lint-results-nonRootDebug.html'
 
 deploy: on
