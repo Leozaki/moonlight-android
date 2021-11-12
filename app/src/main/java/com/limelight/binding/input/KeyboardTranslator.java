@@ -98,7 +98,7 @@ public class KeyboardTranslator {
             case KeyEvent.KEYCODE_ALT_RIGHT:
                 translated = 0xA5;
                 break;
-                    
+                
             // translated = Winkey 0x5B;
             case KeyEvent.KEYCODE_TV:
                 translated = 0x5b;
@@ -246,7 +246,7 @@ public class KeyboardTranslator {
                 translated = VK_DOWN;
                 break;
                 
-            case KeyEvent.KEYCODE_TV:
+            case KeyEvent.KEYCODE_GRAVE:
                 translated = VK_BACK_QUOTE;
                 break;
                 
