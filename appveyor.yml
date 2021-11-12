@@ -20,6 +20,7 @@ after_build:
   - 'dir app\build\outputs\apk\root'
   - 'dir app\build\outputs\apk\root\release'
   - 'appveyor PushArtifact app\build\reports\lint-results-nonRootDebug.html'
-  - 'appveyor PushArtifact app\build\outputs\apk\root\release\app-root-release.apk'
+  - 'appveyor PushArtifact app\build\outputs\apk\root\release\app-root-release-unsigned.apk'
+  - 'appveyor PushArtifact app\build\outputs\apk\root\release\output-metadata.json'
 
 deploy: on
