@@ -91,12 +91,18 @@ public class KeyboardTranslator {
         }
         else {
             switch (keycode) {
-            case KeyEvent.KEYCODE_ALT_LEFT:
+            // translated = ALT_LEFT 0xA4;
+            case KeyEvent.KEYCODE_TV:
                 translated = 0xA4;
                 break;
 
             case KeyEvent.KEYCODE_ALT_RIGHT:
                 translated = 0xA5;
+                break;
+                    
+            // translated = Winkey 0x5B;
+            case KeyEvent.KEYCODE_DVR:
+                translated = 0x5b;
                 break;
                 
             case KeyEvent.KEYCODE_BACKSLASH:
